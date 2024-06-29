@@ -1,13 +1,13 @@
 # Truco B0T 🎴🤖
 
-### What is my project? 🤔
+## What is my project? 🤔
 
 Mi Project is a Windows application that allows you to play the popular Argentinian card game, Truco, against a bot. Truco is a zero-sum, imperfect information game that uses a Spanish deck without 8s, 9s, and jokers. It can be played by 2, 4, or 6 players divided into two teams, with the objective of reaching 30 points. For shorter matches, the game can be played until 15 points.
 
 Please find the ruleset for Truco at the following link: [Truco Rules](https://www.pagat.com/put/truco_ar.html).
 It is important to note that there are several variants of this game. In this app, we will be playing the “sin-flor” (no-flower) version.
 
-### What did I use to make it? 🛠️
+## What did I use to make it? 🛠️
 
 I developed this application using Python and Tkinter along with some other libraries. The libraries utilized in this project include Pillow, Random, Os, and, as previously mentioned, Tkinter.
 
@@ -16,11 +16,11 @@ I developed this application using Python and Tkinter along with some other libr
 - **Random** is used to make some aspects of the bot's behavior unpredictable.
 - **Os** is used to determine the directory path of the script and to resolve any issues related to locating the 'images' folder.
 
-### Why did I make it? 🎯
+## Why did I make it? 🎯
 
 I chose to create a Truco bot as my final project for three main reasons. Firstly, I enjoy creating games that people can enjoy, and I find Truco to be a fun and challenging game. Secondly, I believe it is a way to showcase a part of the culture of my country, Argentina. Lastly, the idea of creating a Truco bot has been on my mind for over a year, but my lack of experience at coding made it impossible.
 
-### How does it work? ⚙️
+## How does it work? ⚙️
 
 When executing the app, the user will be presented with three options and the app title.
 - The first option is a button located in the upper-right corner, which displays the United States flag representing the English language. Clicking on it will change the flag to an Argentinian flag representing the Spanish language. This allows the user to choose their preferred language for using the app.
@@ -35,7 +35,7 @@ Your cards and announcement options will be displayed below the table, together 
 
 After the envido or a hand, a message box will appear showing which player gained points and the amount of points.
 
-### Code design 📝
+## Code design 📝
 
 The code is divided in 4 parts:
 
