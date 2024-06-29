@@ -1,4 +1,4 @@
-# Truco B0T 🎴🤖
+# Truco B0T 🎴🤖🇦🇷
 
 ## What is my project? 🤔
 
@@ -6,6 +6,12 @@ Mi Project is a Windows application that allows you to play the popular Argentin
 
 Please find the ruleset for Truco at the following link: [Truco Rules](https://www.pagat.com/put/truco_ar.html).
 It is important to note that there are several variants of this game. In this app, we will be playing the “sin-flor” (no-flower) version.
+
+## Screenshots 📷
+![Home screen](screenshots/home.JPG)
+![In game image](screenshots/primera.JPG)
+![In game imagex2](screenshots/ganando.JPG)
+
 
 ## What did I use to make it? 🛠️
 
@@ -57,3 +63,31 @@ The code is divided in 4 parts:
 
 4. **Gui** 🖼️
    - This section describes two scenes: the main scene, which is the home screen that allows the user to choose between several options and start a match, and the match scene where the game is played.
+
+## How to Install 📥
+
+1. **Clone the repository**: First, download the repository from GitHub.
+
+    ```bash
+    git clone https://github.com/JuanNovas/Truco-B0T.git
+    ```
+
+2. **Navigate to the project directory**: Change your current directory to the project folder.
+
+    ```bash
+    cd Truco-B0T
+    ```
+
+3. **Install the dependencies**: Use `pip` to install all the required packages listed in the `requirements.txt` file.
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Execute the script**: Use `python` to execute the program and start playing.
+
+    ```bash
+    python TrucoV1.0.py
+    ```
+
+Now you're all set! 🎉 You can start using Truco B0T and enjoy the game. 🃏🤖
